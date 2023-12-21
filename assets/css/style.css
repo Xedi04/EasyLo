@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 32px;
+  margin: auto;
+}
+
+.navbar .navbar-brand {
+  color: black;
+  font-size: 30px;
+}
+.navbar .collapse {
+  gap: 20px;
+}
+.navbar .collapse .navbar-nav {
+  gap: 30px;
+}
+.navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: white;
+}
+.navbar .collapse #navbtn {
+  border: none;
+  background-color: #10C98F;
+  padding: 20px 30px;
+  color: white;
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(16, 201, 143, 0.4), rgba(16, 201, 143, 0.4)), url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp");
+}/*# sourceMappingURL=style.css.map */

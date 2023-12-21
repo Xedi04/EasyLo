@@ -1,0 +1,49 @@
+@import "./mixin/mixin";
+@import "./variable";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 32px;
+    margin: auto;
+}
+
+.navbar {
+    .navbar-brand{
+        color: black;
+        font-size: 30px;
+    }
+   .collapse {
+    gap: 20px;
+    .navbar-nav {
+        gap: 30px;
+        .nav-item{
+            .nav-link{
+                color: white;
+            }
+        }
+
+    }
+        
+                #navbtn {
+                    border: none;
+                    background-color: $bg;
+                  padding: 20px 30px    ;
+                  color: white;
+                }
+            
+            } 
+    
+}
+header{
+    width: 100%;
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(16,201,143,0.4), rgba(16,201,143,0.4)), url("https://preview.colorlib.com/theme/easylo/assets/img/hero/h1_hero1.jpg.webp");
+                                    
+}
