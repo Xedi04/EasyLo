@@ -5,7 +5,7 @@
 }
 
 .container {
-  max-width: 1300px;
+  max-width: 1200px;
   width: 100%;
   padding: 0 32px;
   margin: auto;
@@ -154,6 +154,26 @@ header .head .head-2 form p {
   text-align: center;
 }
 
+.div-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #10C98F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.div-btn i {
+  font-size: 30px;
+  color: white;
+}
+
+.solutions {
+  width: 100%;
+}
 .solutions .s-all {
   width: 100%;
   display: flex;
@@ -227,6 +247,7 @@ header .head .head-2 form p {
   background-color: #E4F1ED;
 }
 .position .p-all {
+  width: 100%;
   display: flex;
   justify-content: center;
   justify-content: space-between;
@@ -312,6 +333,245 @@ header .head .head-2 form p {
   border: 2px solid #10C98F;
 }
 
+.choose {
+  width: 100%;
+}
+.choose .c-all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px 0;
+}
+.choose .c-all .c-head {
+  width: 40%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.choose .c-all .c-head h2 {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0F4332;
+}
+.choose .c-all .c-head .line {
+  width: 110px;
+  background-color: #10C98F;
+  height: 3px;
+}
+.choose .c-all .c-head p {
+  font-size: 16px;
+  color: gray;
+}
+.choose .c-all .c-divall {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.choose .c-all .c-divall .div4 {
+  width: 24%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 30px;
+  gap: 20px;
+}
+.choose .c-all .c-divall .div4:hover h3 {
+  color: #10C98F;
+}
+.choose .c-all .c-divall .div4 img {
+  width: 23%;
+}
+.choose .c-all .c-divall .div4 h3 {
+  font-size: 25px;
+  font-weight: 700;
+  transition: all 0.5s ease;
+  color: #0F4332;
+}
+.choose .c-all .c-divall .div4 p {
+  font-size: 18px;
+  color: gray;
+}
+
+.get {
+  width: 100%;
+  background-color: #E4F1ED;
+}
+.get .g-all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 100px 0;
+}
+.get .g-all .g-text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.get .g-all .g-text h2 {
+  font-size: 40px;
+  color: #0F4332;
+  font-weight: 700;
+}
+.get .g-all .g-text p {
+  color: gray;
+}
+.get .g-all .g-text .p-div {
+  display: flex;
+  flex-direction: column;
+}
+.get .g-all .g-text .p-div .green {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.get .g-all .g-text .p-div .green .d {
+  width: 15px;
+  height: 15px;
+  background-color: #10C98F;
+  border-radius: 50%;
+}
+.get .g-all .g-text .p-div .green #p2 {
+  font-size: 19px;
+  color: #0F4332;
+}
+.get .g-all .g-text #more {
+  width: 200px;
+  border: 2px solid #10C98F;
+  padding: 20px 0;
+  font-weight: 700;
+  color: #10C98F;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.get .g-all .g-text #more:hover {
+  background-color: #10C98F;
+  color: white;
+  border: 2px solid #10C98F;
+}
+.get .g-all .g-img {
+  width: 37%;
+  height: 470px;
+  margin-right: 150px;
+}
+.get .g-all .g-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.news {
+  width: 100%;
+}
+.news .n-all {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 100px 0;
+}
+.news .n-all .n-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.news .n-all .n-head h2 {
+  font-size: 40px;
+  color: #0F4332;
+  font-weight: 700;
+}
+.news .n-all .n-head .line {
+  width: 110px;
+  background-color: #10C98F;
+  height: 3px;
+}
+.news .n-all .n-divall {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.news .n-all .n-divall .n-div3 {
+  width: 32%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.news .n-all .n-divall .n-div3:hover .n-text h3 {
+  color: #10C98F;
+}
+.news .n-all .n-divall .n-div3 .n-img {
+  width: 100%;
+}
+.news .n-all .n-divall .n-div3 .n-img img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.news .n-all .n-divall .n-div3 .n-text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.news .n-all .n-divall .n-div3 .n-text #p3 {
+  color: gray;
+}
+.news .n-all .n-divall .n-div3 .n-text h3 {
+  font-size: 25px;
+  font-weight: 700;
+  color: #0F4332;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.news .n-all .n-divall .n-div3 .n-text p {
+  color: gray;
+  font-size: 17px;
+}
+
+footer {
+  width: 100%;
+  border-top: 1px solid rgb(235, 232, 232);
+}
+footer .end {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+footer .end p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  color: gray;
+}
+footer .end p i {
+  color: #10C98F;
+}
+footer .end p a {
+  text-decoration: none;
+  color: #10C98F;
+}
+
 @media screen and (max-width: 990px) {
   .navbar .container {
     max-width: 800px;
@@ -355,9 +615,52 @@ header .head .head-2 form p {
   .position .container .p-all .p-img {
     width: 65%;
   }
+  .position .container .p-all .p-img .p-color {
+    right: -75px;
+  }
   .position .container .p-all .p-text {
     width: 65%;
     padding: 0;
+  }
+  .choose .container {
+    max-width: 800px;
+  }
+  .choose .container .c-all .c-head {
+    width: 70%;
+  }
+  .choose .container .c-all .c-divall {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .choose .container .c-all .c-divall .div4 {
+    width: 48%;
+  }
+  .choose .container .c-all .c-divall .div4 h3 {
+    font-size: 22px;
+  }
+  .get .container {
+    max-width: 800px;
+  }
+  .get .container .g-all {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .get .container .g-all .g-text {
+    width: 80%;
+    padding-right: 100px;
+  }
+  .get .container .g-all .g-img {
+    width: 60%;
+  }
+  .news .container {
+    max-width: 800px;
+  }
+  .news .container .n-all .n-divall {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .news .container .n-all .n-divall .n-div3 {
+    width: 48%;
   }
 }
 @media screen and (max-width: 768px) {
@@ -414,6 +717,36 @@ header .head .head-2 form p {
   .position .container .p-all .p-text h2 {
     font-size: 30px;
   }
+  .choose .container {
+    max-width: 550px;
+  }
+  .choose .container .c-all .c-divall .div4 {
+    width: 47%;
+    padding: 0;
+  }
+  .get .container {
+    max-width: 550px;
+  }
+  .get .container .g-all .g-text {
+    width: 100%;
+    padding: 0;
+  }
+  .get .container .g-all .g-text h2 {
+    font-size: 30px;
+  }
+  .get .container .g-all .g-img {
+    width: 85%;
+    padding: 0;
+  }
+  .news .container {
+    max-width: 550px;
+  }
+  .news .container .n-all .n-divall .n-div3 {
+    width: 47%;
+  }
+  footer .container .end p {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (max-width: 576px) {
   header .container {
@@ -448,4 +781,46 @@ header .head .head-2 form p {
   .position .container .p-all .p-text .p-div .green #p2 {
     font-size: 16px;
   }
-}/*# sourceMappingURL=style.CSS.map */
+  .choose .container {
+    padding: 0 20px;
+  }
+  .choose .container .c-all .c-head {
+    width: 100%;
+  }
+  .choose .container .c-all .c-divall {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .choose .container .c-all .c-divall .div4 {
+    width: 100%;
+    padding: 0;
+  }
+  .choose .container .c-all .c-divall .div4 img {
+    width: 15%;
+  }
+  .get .container {
+    padding: 0 20px;
+  }
+  .get .container .g-all .g-text {
+    width: 100%;
+  }
+  .get .container .g-all .g-text h2 {
+    font-size: 24px;
+  }
+  .get .container .g-all .g-img {
+    width: 100%;
+  }
+  .news .container {
+    padding: 0 20px;
+  }
+  .news .container .n-all .n-head h2 {
+    font-size: 25px;
+  }
+  .news .container .n-all .n-divall {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .news .container .n-all .n-divall .n-div3 {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
