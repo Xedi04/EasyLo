@@ -14,9 +14,9 @@ fetch(" http://localhost:3000/EasyLo")
         <h3>${element.name}</h3>
         <p>${element.description}</p>
         <div class="divBtn">
-        <button id="update" onclick="Update(${element.id})">Update</button>
-        <button id="delete" onclick="Deletebox(${element.id})">Delete</button>
-        <button id="details" onclick="GoTo(${element.id})">Details</button>
+        <button onclick="Update(${element.id})">Update</button>
+        <button onclick="Deletebox(${element.id})">Delete</button>
+        <button onclick="GoTo(${element.id})">Details</button>
     </div>
     </div>
         `
@@ -36,11 +36,9 @@ Load.addEventListener("click", ()=>{
     ShowData();
 })
 
-function Deletebox ( id ){
-    axios.delete(`http://localhost:3000/EasyLo/${id}`)
-    .then(res=>{
-        window.location.reload()
-    })
+function Deletebox(id){
+    axios.delete(`http://localhost:3000/EasyLo/${id}`);
+    window.location.reload()
 }
 
 function GoTo(id){

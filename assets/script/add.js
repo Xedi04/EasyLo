@@ -29,9 +29,7 @@ Form.addEventListener("submit", (e) => {
 
         }
         axios.post("http://localhost:3000/EasyLo", obj)
-            .then(res => {
-                window.location = "./index.html"
-        })
+            .then(res => window.location = "./index.html")
     }
     reader.readAsDataURL(src);
 
