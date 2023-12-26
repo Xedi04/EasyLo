@@ -187,9 +187,10 @@ header {
     border-radius: 50%;
     background-color: $bg;
     @include flex;
-    position: fixed;
+    position: static;
     bottom: 20px;
     right: 20px;
+    cursor: pointer;
 
     i {
         font-size: 30px;
@@ -233,10 +234,43 @@ header {
             }
         }
 
+        #load {
+            width: 100px;
+            border: none;
+            background-color: $bg;
+            color: white;
+            padding: 5px 0;
+        }
+
         .s-divall {
             @include mini;
-            //flex-wrap: wrap;
+            flex-wrap: wrap;
             justify-content: space-between;
+
+            #form {
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                background-color: $bg;
+                padding: 30px;
+                .img-div{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                    }
+                }
+                input{
+                    padding: 5px 0;
+                }
+                #submit{
+                    width: 100px;
+                    padding: 5px 0;
+                    background-color: $c;
+                    color: white;
+                    border: none;
+                }
+            }
 
             .div3 {
                 width: 31%;
@@ -244,6 +278,12 @@ header {
                 flex-direction: column;
                 gap: 20px;
                 padding-right: 80px;
+
+                i {
+                    font-size: 30px;
+                    display: flex;
+                    justify-content: flex-end;
+                }
 
                 &:hover {
                     h3 {
@@ -272,6 +312,25 @@ header {
                     font-size: 18px;
                     color: gray;
 
+                }
+
+                i {
+                    color: $bg;
+                }
+
+                .divBtn {
+                    width: 100%;
+                    @include flex;
+                    justify-content: space-between;
+
+                    button {
+                        width: 85px;
+                        background-color: $bg;
+                        color: white;
+                        padding: 5px 0;
+                        border: none;
+                        cursor: pointer;
+                    }
                 }
             }
 
@@ -707,6 +766,7 @@ footer {
 
                 .s-divall {
                     flex-wrap: wrap;
+                    gap: 10px;
 
                     .div3 {
                         width: 49%;

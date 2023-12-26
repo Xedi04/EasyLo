@@ -162,9 +162,10 @@ header .head .head-2 form p {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  position: static;
   bottom: 20px;
   right: 20px;
+  cursor: pointer;
 }
 .div-btn i {
   font-size: 30px;
@@ -206,12 +207,44 @@ header .head .head-2 form p {
   font-size: 15px;
   font-weight: 500;
 }
+.solutions .s-all #load {
+  width: 100px;
+  border: none;
+  background-color: #10C98F;
+  color: white;
+  padding: 5px 0;
+}
 .solutions .s-all .s-divall {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
+}
+.solutions .s-all .s-divall #form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: #10C98F;
+  padding: 30px;
+}
+.solutions .s-all .s-divall #form .img-div {
+  width: 100%;
+}
+.solutions .s-all .s-divall #form .img-div img {
+  width: 100%;
+}
+.solutions .s-all .s-divall #form input {
+  padding: 5px 0;
+}
+.solutions .s-all .s-divall #form #submit {
+  width: 100px;
+  padding: 5px 0;
+  background-color: #0F4332;
+  color: white;
+  border: none;
 }
 .solutions .s-all .s-divall .div3 {
   width: 31%;
@@ -219,6 +252,11 @@ header .head .head-2 form p {
   flex-direction: column;
   gap: 20px;
   padding-right: 80px;
+}
+.solutions .s-all .s-divall .div3 i {
+  font-size: 30px;
+  display: flex;
+  justify-content: flex-end;
 }
 .solutions .s-all .s-divall .div3:hover h3 {
   color: #10C98F;
@@ -240,6 +278,24 @@ header .head .head-2 form p {
 .solutions .s-all .s-divall .div3 p {
   font-size: 18px;
   color: gray;
+}
+.solutions .s-all .s-divall .div3 i {
+  color: #10C98F;
+}
+.solutions .s-all .s-divall .div3 .divBtn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+}
+.solutions .s-all .s-divall .div3 .divBtn button {
+  width: 85px;
+  background-color: #10C98F;
+  color: white;
+  padding: 5px 0;
+  border: none;
+  cursor: pointer;
 }
 
 .position {
@@ -600,6 +656,7 @@ footer .end p a {
   }
   .solutions .container .s-all .s-divall {
     flex-wrap: wrap;
+    gap: 10px;
   }
   .solutions .container .s-all .s-divall .div3 {
     width: 49%;
@@ -823,4 +880,4 @@ footer .end p a {
   .news .container .n-all .n-divall .n-div3 {
     width: 100%;
   }
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.CSS.map */
